@@ -1,0 +1,305 @@
+/* Font Style */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Akhir font */
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+/* Landing */
+
+.box {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #E7D111;
+    border-radius: 0.3rem;
+}
+
+.posisi {
+    margin-left: -30px;
+}
+
+.judul {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.txt {
+    font-size: 14px;
+}
+
+
+/* Akhir Landing */
+
+.title1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: -15px;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: -15px;
+}
+
+.label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-left: 25px;
+    margin-top: -50px;
+}
+
+.kotak {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #E7D111;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.gambar {
+    height: 150px;
+    margin-left: 55px;
+}
+
+.jumbotron-fluid {
+    background-image: url(../img/pricing.png);
+}
+
+.harga {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.label2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.nama-olahraga {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.tombol-boking {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: #E7D111;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px 3px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.tombol-boking:hover {
+    background: #e0cb0d;
+    text-decoration: none;
+    color: black;
+}
+
+.harga-satuan {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.txt-judul {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+.txt-info {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: #e0cb0d;
+}
+
+.txt-footer {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+
+/* DEKSTOP Version */
+
+@media (min-width: 992px) {
+    .nav-link {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .tombol {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin: 3px;
+    }
+    .judul {
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 80px;
+        margin-left: 60px;
+    }
+    .txt {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: normal;
+        margin-left: 60px;
+    }
+    .posisi {
+        margin-top: -30px;
+        margin-left: -50px;
+    }
+    .title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 40px;
+        margin-top: -15px;
+    }
+    .box {
+        width: 1125px;
+        height: 500px;
+        background-color: #E7D111;
+        border-radius: 15px;
+    }
+    .title1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        font-weight: bolder;
+        margin-top: -15px;
+    }
+    .kotak {
+        padding: 2rem 1rem;
+        margin-bottom: 2rem;
+        background-color: #ffffff;
+        border-radius: 20px;
+        border: 1px solid #E7D111;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+    }
+    .label {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        margin-left: 40px;
+        margin-top: -50px;
+    }
+    .gambar {
+        height: 220px;
+    }
+    .deskripsi {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .harga {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .label2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+    }
+    .nama-olahraga {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .tombol-boking {
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        background: #E7D111;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        display: inline-block;
+        cursor: pointer;
+        font-size: 17px;
+        font-weight: bold;
+        padding: 12px 10px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    .tombol-boking:hover {
+        background: #e0cb0d;
+        text-decoration: none;
+        color: black;
+    }
+    .harga-satuan {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 27px;
+        margin-top: 13px;
+    }
+    .txt-info {
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        font-size: 15px;
+    }
+    .txt-judul {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+        margin-top: 7px;
+    }
+    /* Footer */
+    .footer {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        margin-top: 10px;
+        height: 40px;
+        width: 100%;
+        background-color: #e0cb0d;
+    }
+    .txt-footer {
+        font-family: 'Poppins', sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+    }
+}
